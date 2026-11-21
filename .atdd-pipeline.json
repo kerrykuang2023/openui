@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "tracker": {
+    "repo": "kerrykuang2023/openui",
+    "kind": "github"
+  },
+  "paths": {
+    "specs": "specs/",
+    "tests": {
+      "use-case": "packages/lang-core/src/__tests__/",
+      "e2e": ".github/actions/cli-scaffold-e2e/",
+      "ui": "packages/react-lang/src/__tests__/"
+    },
+    "context": "spec/overview.md",
+    "adr": "docs/adr/"
+  },
+  "commits": "conventional",
+  "reviewers": {
+    "mode": "sequential"
+  },
+  "stage3_mode": "sequential",
+  "trunk_branch": "main",
+  "integration_branch_pattern": "atdd/{us_slug}/integration",
+  "auto_merge": {
+    "enabled": false,
+    "idle_window_minutes": 5,
+    "max_fix_iterations": 3,
+    "watch_timeout_minutes": 60,
+    "merge_method": "squash",
+    "bot_logins": [
+      "coderabbitai",
+      "coderabbitai[bot]",
+      "github-actions[bot]",
+      "codex",
+      "codex-bot"
+    ]
+  },
+  "verify": {}
+}
