@@ -1,0 +1,37 @@
+{
+  "parent": 1,
+  "us": 2,
+  "integration_branch": "atdd/net-receipts/integration",
+  "scenarios": {
+    "by-channel": {
+      "issue": 3,
+      "feature": "specs/net-receipts/by-channel.feature",
+      "level": "use-case",
+      "rule": "R-04"
+    },
+    "multiple-refunds": {
+      "issue": 4,
+      "feature": "specs/net-receipts/multiple-refunds.feature",
+      "level": "use-case",
+      "rule": "R-02"
+    },
+    "paid-orders": {
+      "issue": 5,
+      "feature": "specs/net-receipts/paid-orders.feature",
+      "level": "use-case",
+      "rule": "R-01"
+    },
+    "period-and-channel": {
+      "issue": 6,
+      "feature": "specs/net-receipts/period-and-channel.feature",
+      "level": "use-case",
+      "rule": "R-05 R-06 R-07"
+    },
+    "refund-status": {
+      "issue": 7,
+      "feature": "specs/net-receipts/refund-status.feature",
+      "level": "use-case",
+      "rule": "R-03"
+    }
+  }
+}

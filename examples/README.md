@@ -77,6 +77,7 @@ through `openui create --example <name>`.
 | [Handsontable](./miscellaneous/handsontable)   | Generated spreadsheet interfaces backed by Handsontable              |
 | [HTML artifact](./miscellaneous/html-artifact) | Sandboxed HTML artifacts as an OpenUI capability                     |
 | [React Email](./miscellaneous/react-email)     | Generating and previewing emails with the OpenUI React Email library |
+| [Net Receipts](./miscellaneous/net-receipts)   | Sales-channel reconciliation with a custom OpenUI report component   |
 | [Supabase](./miscellaneous/supabase)           | Persisted OpenUI conversations and threads with Supabase             |
 
 ## Run and verify

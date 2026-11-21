@@ -191,6 +191,11 @@
       }
     },
     {
+      "title": "Net Receipts",
+      "description": "An interactive sales-channel reconciliation report rendered from OpenUI Lang.",
+      "path": "miscellaneous/net-receipts"
+    },
+    {
       "title": "React Email",
       "description": "Generating and previewing emails with the OpenUI React Email library.",
       "path": "miscellaneous/react-email",
